@@ -3,5 +3,27 @@
 exports[`List Spec Should render without error 1`] = `
 <div>
   <ul />
+  <hr />
+  <form
+    onSubmit={[Function]}
+  >
+    <div>
+      <label>
+        What will you do next?
+      </label>
+      <input
+        id="todo"
+        name="todo"
+        onChange={[Function]}
+        type="text"
+        value=""
+      />
+      <button
+        type="submit"
+      >
+        Add Todo
+      </button>
+    </div>
+  </form>
 </div>
 `;

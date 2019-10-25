@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App Spec Should render without error 1`] = `
+<main>
+  <h1>
+    Code Coverage Tests
+  </h1>
+  <div>
+    <ul>
+      <li>
+        First Todo
+         - 
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Delete
+        </button>
+      </li>
+      <li>
+        Second Todo
+         - 
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Delete
+        </button>
+      </li>
+      <li>
+        Third Todo
+         - 
+        <button
+          onClick={[Function]}
+          type="button"
+        >
+          Delete
+        </button>
+      </li>
+    </ul>
+    <hr />
+    <form
+      onSubmit={[Function]}
+    >
+      <div>
+        <label>
+          What will you do next?
+        </label>
+        <input
+          id="todo"
+          name="todo"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+        <button
+          type="submit"
+        >
+          Add Todo
+        </button>
+      </div>
+    </form>
+  </div>
+</main>
+`;
